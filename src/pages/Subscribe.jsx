@@ -9,6 +9,7 @@ import thumbJuanda from "../assets/image/logo-site/thumb-juanda.jpg";
 import logoSurabaya from "../assets/image/logo-site/logo-surabaya.png";
 import thumbSurabaya from "../assets/image/logo-site/thumb-surabaya.jpg";
 import UpToDwon from "../components/framer-motion/scroll/UpToDwon";
+import ScrollReveal from "../components/framer-motion/scroll/ScrollReveal";
 
 export default function Subscribe() {
   return (
@@ -78,7 +79,7 @@ export default function Subscribe() {
           </UpToDwon>
         </div>
 
-        <UpToDwon>
+        <ScrollReveal delay={1} offset={725}>
           <button className="m-auto px-4 py-2 block border-1 border-slate-300 rounded-sm font-roboto">
             <a
               href="https://noviansyahsukma.github.io/page-subscribe/"
@@ -89,7 +90,7 @@ export default function Subscribe() {
               </h3>
             </a>
           </button>
-        </UpToDwon>
+        </ScrollReveal>
       </div>
 
       <div className="text-center text-8xl md:text-9xl mt-6 md:mt-0 2xl:mt-3 text-slate-500">
